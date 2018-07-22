@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contacts"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="1"
+        android:padding="4dp"
+        android:id="@+id/ll1">
+
+        <Button
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:layout_weight="0.2"
+            android:background="@mipmap/ic_launcher_round"
+            />
+
+        <TextView
+            android:layout_weight="0.8"
+            android:layout_height="match_parent"
+
+            android:gravity="center_vertical"
+            android:text="Dhiraj Gupta"
+            android:textSize="20sp"
+            android:layout_marginStart="10dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="1"
+        android:padding="4dp"
+        android:id="@+id/ll2">
+
+        <Button
+
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:background="@mipmap/ic_launcher_round"
+            android:padding="15dp" />
+
+        <TextView
+            android:layout_weight="0.8"
+            android:layout_height="match_parent"
+
+            android:gravity="center_vertical"
+            android:text="C. Ronaldo"
+            android:textSize="20sp"
+            android:layout_marginStart="10dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="1"
+        android:padding="4dp"
+        android:id="@+id/ll3">
+
+        <Button
+
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:layout_weight="0.2"
+            android:background="@mipmap/ic_launcher_round"
+            />
+
+        <TextView
+            android:layout_weight="0.8"
+            android:layout_height="match_parent"
+
+            android:gravity="center_vertical"
+            android:text="Donald Trump"
+            android:textSize="20sp"
+            android:layout_marginStart="10dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="1"
+        android:padding="4dp"
+        android:id="@+id/ll4">
+
+        <Button
+
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:layout_weight="0.2"
+            android:background="@mipmap/ic_launcher_round"
+            />
+
+        <TextView
+            android:layout_weight="0.8"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+
+            android:text="Narendra Modi"
+            android:textSize="20sp"
+            android:layout_marginStart="10dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="1"
+        android:padding="4dp"
+        android:id="@+id/ll5">
+
+        <Button
+
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:layout_weight="0.2"
+            android:background="@mipmap/ic_launcher_round"
+            />
+
+        <TextView
+            android:layout_weight="0.8"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="Selena Gomez"
+            android:textSize="20sp"
+            android:layout_marginStart="10dp"/>
+
+    </LinearLayout>
+</LinearLayout>
